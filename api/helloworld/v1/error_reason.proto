@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-package helloworld.v1;
+package xmus.service.id;
 
 import "errors/errors.proto";
 

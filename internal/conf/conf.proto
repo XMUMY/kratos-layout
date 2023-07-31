@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-package kratos.api;
+package xmus.service.id;
 
 import "google/protobuf/duration.proto";
 
