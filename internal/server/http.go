@@ -10,7 +10,6 @@ import (
 	"github.com/go-kratos/kratos/v2/transport/http"
 )
 
-// NewHTTPServer new an HTTP server.
 func NewHTTPServer(c *conf.Server, greeter *service.GreeterService, logger log.Logger) *http.Server {
 	var opts = []http.ServerOption{
 		http.Middleware(
